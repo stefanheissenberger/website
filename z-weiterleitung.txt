@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>RK-MD Heuriger CheckIn</title>
+        <title>Platzhalter</title>
      <meta charset="UTF-8" />
      <meta http-equiv="refresh" content="0; URL=https://forms.office.com/r/yW739s9jsJ" />
    </head>
