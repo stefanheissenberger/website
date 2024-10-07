@@ -48,15 +48,6 @@
                 </ul>
                 <i class="uil uil-times nav_close" id="nav-close"></i>
             </div>
-
-            <div class="nav_btns">
-                <!-- Theme change buttton -->
-                <i class="uil uil-moon change-theme" id="theme-button"></i>
-
-                <div class="nav_toggle" id="nav-toggle">
-                    <i class="uil uil-apps"></i>
-                </div>
-            </div>
         </nav>
     </header>
 
@@ -199,63 +190,5 @@
             <p class="footer_copy">&#169 2021-<script>document.write(new Date().getFullYear())</script> Stefan Heissenberger. All Rights Reserved.</p>
         </div>
     </footer>
-
-    <!-- SCROLL UP -->
-    <a href="#" class="scrollup" id="scroll-up">
-        <i class="uil uil-angle-up scrollup_icon"></i>
-    </a>
-
-    <!-- SWIPER JS -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-        /* Swiper for Portfolio */
-        var swiper = new Swiper(".portfolio_container", {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-            dynamicBullets: true,
-        },
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        mousewheel: {
-        forceToAxis: true,
-        },
-        grabCursor: true,
-        effect: "slide",
-        });
-
-        /* Swiper for Testimonial*/
-        var swiper = new Swiper(".testimonial_container", {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-            dynamicBullets: true,
-        },
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        breakpoints:{
-            568:{
-                slidesPerView: 2,
-            },
-        },
-        mousewheel: {
-        forceToAxis: true,
-        },
-        grabCursor: true,
-        effect: "slide",
-        });
-    </script>
 </body>
 </html>
